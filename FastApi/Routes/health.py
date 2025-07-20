@@ -1,1 +1,0 @@
-# file that contains the health check route for the FastAPI application

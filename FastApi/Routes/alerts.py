@@ -1,1 +1,0 @@
-# file that handles api calls for email alerts
