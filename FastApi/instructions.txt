@@ -1,0 +1,18 @@
+How to setup the FastAPI application
+Step 1: setup venv
+    python -m venv .venv
+    .venv\Scripts\Activate.ps1
+    python -m pip install --upgrade pip
+
+Step 2: install packages (UPDTE WITH ANY PACKAGES WE NEED)
+    pip install "fastapi[standard]"
+    pip install pytest httpx pytest-asyncio
+
+Step 3: run application
+    fastapi dev main.py
+
+Comments are left in every file, read main.py and search.py for more detailed explanations of thingsS
+
+Step 4: Tests
+    Once API's are made make tests for them in the Tests folder
+    Run tests with "pytest" in terminal
